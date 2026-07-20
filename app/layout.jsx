@@ -4,6 +4,9 @@ export const metadata = {
   title: 'Free Online Image Tools — Compress, Convert, Crop, Resize, Rotate',
   description:
     'Compress images to any file size, convert HEIC/AVIF to JPG/PNG/WebP, crop, resize, and rotate — all in your browser. Free, no signup, 100% private.',
+  icons: {
+    icon: '/favicon.svg',
+  },
 };
 
 export default function RootLayout({ children }) {
